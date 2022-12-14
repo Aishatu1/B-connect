@@ -1,0 +1,168 @@
+body{
+   margin:0;
+}
+h3, h4{
+   color: rgb(245, 109, 109);
+}
+h3{
+   font-size: 2.3rem;
+   font-weight: 600;
+   text-align: center;
+}
+hr{
+   width: 5%;
+     margin:5% auto;
+     border-style: dotted;
+     border-top: none;
+     border-width: 10px;
+     color:rgb(240, 179, 179);
+    }
+.sitename {
+    display: inline-block;
+}
+.sitename h2{
+   margin: 0;
+   margin-top: 3%;
+   color: rgb(3, 36, 36);
+}
+.navigation-links{
+   float: right;
+   margin:auto;
+   width:20%;
+ }
+ .nav-container{
+   padding: 1% 2%;
+   width: 96%;
+   top: 0%;
+   left: 0%;
+   z-index: 3;
+   border: 1px solid rgb(250, 131, 151);
+   background-color:rgb(250, 131, 151);
+   position: fixed;
+}
+a{
+   text-decoration: none;
+}
+   .section1{
+      background-color: rgb(252, 231, 234);
+      text-align: center;
+      position:relative;
+      height:100%;
+      padding-top: 7%;
+ }
+ .section1 h1{
+   font-size: 4rem;
+   font-family: 'Dancing Script', cursive;
+   margin: 5%;
+   color:rgb(4, 59, 59);
+}
+.section1 p{
+   font-size: 4rem;
+   font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin: 5%;
+   color:rgb(4, 59, 59);
+}
+.section1 p span{
+   text-decoration:underline;
+}
+.cloud-one, .cloud-two{
+   position:absolute;
+}
+.cloud-one{
+   top: 8%;
+   right: 15%;
+}
+.cloud-two{
+   bottom: 40%;
+   left: 15%;
+}
+.section2{
+   padding:5% 15%;
+}
+.profile-container{
+   text-align:center;
+}
+ .profile-container p{
+   margin:5% auto;
+   width:40%;
+}
+.aisha{
+   height: 350px;
+   width: 250px;
+   border-radius: 50%;
+}
+   .hello{
+      color:rgb(238, 110, 110);
+   }
+   .skills-container{
+      margin: 0 0 10%;
+   }
+   .skills-container h3{
+      margin: 5% 0 7%;
+   }
+   .skills-container img{
+      width:18%;
+   }
+   .skill1 img{
+      float: left;
+      margin-right: 3%;
+      width: 18%;
+   } 
+   .skill3 img{
+      float: left;
+      margin-right: 3%;
+      width: 18%;
+   }
+   .skill2 img{
+      float: right;
+      margin-left: 3%;
+      width: 18%;
+   }
+   .skill{
+      margin: 15% 0;
+   }
+   .contact-me-container{
+      text-align: center;
+   }
+   .contact-me-container a{
+      font-size: 1.2rem;
+      text-decoration: none;
+      border-radius: 15px;
+      color: bisque;
+      background-color: rgb(250, 131, 151);
+      padding: 1% 1.5%;
+      text-transform: uppercase;
+      font-weight: 300;
+   }
+   .contact-me-container a:hover{
+      color:black;
+}
+   footer{
+      text-align: center;
+      border: 1px solid rgb(250, 131, 151);
+      background-color:rgb(250, 131, 151);
+     }
+    @media screen and (max-width: 650px){
+      .mountain{
+         width: 40%;
+         margin-top: 15%
+        }
+      .cloud-two{
+         display: none;
+      }
+      .cloud-one{
+         display:none;
+       }
+      .navigation-links{
+         width:15%
+      }
+     .section1 h1{
+        font-size: 2rem; 
+      }
+      .section1 p{
+         font-size: 2rem;
+      }
+      .section1{
+         padding-top: 30%;
+      }
+    } 
